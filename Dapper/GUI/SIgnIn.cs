@@ -10,11 +10,12 @@ using System.Windows.Forms;
 
 namespace Dapper
 {
-    public partial class MainForm : Form
+    public partial class SIgnIn : Form
     {
-        public MainForm()
+        public SIgnIn()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
     }
 }
